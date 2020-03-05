@@ -23,7 +23,7 @@ class CoreDataManager {
         
         do {
             let gameResult = try managedContext.execute(batchDeleteGame) as! NSBatchDeleteResult
-            print("Deleted \(gameResult.result)")
+            print("Deleted \(String(describing: gameResult.result))")
         } catch {
             print(error)
         }

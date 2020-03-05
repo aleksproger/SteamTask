@@ -10,7 +10,6 @@
 		FA483614238A92C900144C88 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA483613238A92C900144C88 /* HomeView.swift */; };
 		FA483616238A945E00144C88 /* RecentlyPlayedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA483615238A945E00144C88 /* RecentlyPlayedView.swift */; };
 		FA48361D238A95F900144C88 /* RecentlyPlayedResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48361C238A95F900144C88 /* RecentlyPlayedResponseObject.swift */; };
-		FA483629238BC15200144C88 /* FriendListResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA483628238BC15200144C88 /* FriendListResponseObject.swift */; };
 		FA48362D238BC38B00144C88 /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48362C238BC38B00144C88 /* FriendListView.swift */; };
 		FA48363F238BEFA200144C88 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48363E238BEFA200144C88 /* CoreDataManager.swift */; };
 		FA483643238C005000144C88 /* Game+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA483641238C005000144C88 /* Game+CoreDataClass.swift */; };
@@ -19,6 +18,7 @@
 		FA48364B238C5E5A00144C88 /* UIKitCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48364A238C5E5A00144C88 /* UIKitCollectionView.swift */; };
 		FA48364E238C6B0C00144C88 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48364D238C6B0C00144C88 /* DataProvider.swift */; };
 		FA483652238CFE7E00144C88 /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA483651238CFE7E00144C88 /* GameCollectionViewCell.swift */; };
+		FA58AD32241134C800E96700 /* FriendListResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58AD31241134C800E96700 /* FriendListResponseObject.swift */; };
 		FA61ECDA23B5FAF90096F4CA /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ECD923B5FAF90096F4CA /* FriendView.swift */; };
 		FA61ECDD23B5FB210096F4CA /* FriendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ECDC23B5FB210096F4CA /* FriendViewModel.swift */; };
 		FA6A553C23A9133A00D62BB2 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A553B23A9133A00D62BB2 /* ProfileViewModel.swift */; };
@@ -50,7 +50,6 @@
 		FA483613238A92C900144C88 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FA483615238A945E00144C88 /* RecentlyPlayedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyPlayedView.swift; sourceTree = "<group>"; };
 		FA48361C238A95F900144C88 /* RecentlyPlayedResponseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyPlayedResponseObject.swift; sourceTree = "<group>"; };
-		FA483628238BC15200144C88 /* FriendListResponseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendListResponseObject.swift; path = ../API/FriendListResponseObject.swift; sourceTree = "<group>"; };
 		FA48362C238BC38B00144C88 /* FriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListView.swift; sourceTree = "<group>"; };
 		FA48363E238BEFA200144C88 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		FA483641238C005000144C88 /* Game+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		FA48364A238C5E5A00144C88 /* UIKitCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitCollectionView.swift; sourceTree = "<group>"; };
 		FA48364D238C6B0C00144C88 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		FA483651238CFE7E00144C88 /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA58AD31241134C800E96700 /* FriendListResponseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListResponseObject.swift; sourceTree = "<group>"; };
 		FA61ECD923B5FAF90096F4CA /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
 		FA61ECDC23B5FB210096F4CA /* FriendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewModel.swift; sourceTree = "<group>"; };
 		FA6A553B23A9133A00D62BB2 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
@@ -201,7 +201,6 @@
 			children = (
 				FAC0F7E92389724000E84DCD /* Assets.xcassets */,
 				FAC0F7EE2389724000E84DCD /* LaunchScreen.storyboard */,
-				FAC0F7EB2389724000E84DCD /* Preview Content */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -218,9 +217,9 @@
 		FA61ECDE23B603D50096F4CA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FA58AD31241134C800E96700 /* FriendListResponseObject.swift */,
 				FAC0F7FE2389A2C300E84DCD /* PlayerInfo.swift */,
 				FAC0F8042389CFF000E84DCD /* GameResponseObject.swift */,
-				FA483628238BC15200144C88 /* FriendListResponseObject.swift */,
 				FA48361C238A95F900144C88 /* RecentlyPlayedResponseObject.swift */,
 			);
 			path = Models;
@@ -307,6 +306,7 @@
 				FA483645238C141F00144C88 /* View-ViewModel */,
 				FA58AD302411311C00E96700 /* Common */,
 				FAC0F7F12389724000E84DCD /* Info.plist */,
+				FAC0F7EB2389724000E84DCD /* Preview Content */,
 			);
 			path = SteamTask;
 			sourceTree = "<group>";
@@ -409,7 +409,6 @@
 				FA483648238C1A0000144C88 /* APIRequestController.swift in Sources */,
 				FAC0F7E12389723D00E84DCD /* AppDelegate.swift in Sources */,
 				FA483644238C005000144C88 /* Game+CoreDataProperties.swift in Sources */,
-				FA483629238BC15200144C88 /* FriendListResponseObject.swift in Sources */,
 				FA48364E238C6B0C00144C88 /* DataProvider.swift in Sources */,
 				FA6A554023A91A2B00D62BB2 /* DataFetcher.swift in Sources */,
 				FA48363F238BEFA200144C88 /* CoreDataManager.swift in Sources */,
@@ -423,6 +422,7 @@
 				FA6A555923ACBE4100D62BB2 /* DotaView.swift in Sources */,
 				FAC0F7E32389723D00E84DCD /* SceneDelegate.swift in Sources */,
 				FA6A554A23AB8B7A00D62BB2 /* RecentlyPlayedRow.swift in Sources */,
+				FA58AD32241134C800E96700 /* FriendListResponseObject.swift in Sources */,
 				FAC0F7F8238972A000E84DCD /* CircleImage.swift in Sources */,
 				FA483643238C005000144C88 /* Game+CoreDataClass.swift in Sources */,
 				FA6A555723ACB76900D62BB2 /* GameDetailView.swift in Sources */,
